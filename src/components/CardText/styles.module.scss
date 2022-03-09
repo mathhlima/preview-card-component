@@ -15,7 +15,12 @@ $font-lexand: 'Lexend Deca', sans-serif;
     color: #fff;
     font-weight: bold;
     font-family: $font-inter;
-    font-size: 35px;    
+    font-size: 35px; 
+    text-align: left;
+    
+    span {
+        color:hsl(277, 64%, 61%)
+    }
         
 }
 
@@ -29,16 +34,31 @@ $font-lexand: 'Lexend Deca', sans-serif;
     
 }
 
-
 .cardLeft {
-    margin: auto;
-    text-align: justify;
-    text-align: center;
+   padding: 20px;
+   margin: 20px;
+
+   
+}
+
+.cardLeft .numbers > p {
+    font-family: $font-inter;
+    color: #fff;
+
+    span {
+        font-family: $font-lexand;
+        color: #a0a0a0;
+    }
 }
 
 .cardRight {
-    margin: auto;
-    accent-color: #aa5cdb;
-    
-
+    width: 100%;
+    background: hsl(277, 64%, 61%);
+   
+    span {
+        height: 100%;
+        object-fit: cover;
+        mix-blend-mode: multiply;
+    }
 }
+

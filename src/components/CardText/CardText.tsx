@@ -9,7 +9,7 @@ export function CardText() {
 
                 <div className={styles.cardLeft}>
                     <div className={styles.mainHeading}>
-                        <p>Get insights that help your business grow.</p>
+                        <p>Get <span>insights</span> that help your business grow.</p>
                     </div>
 
                     <div className={styles.secondHeading}>
@@ -19,13 +19,17 @@ export function CardText() {
                         </p>
                     </div>
 
-                    <p>10k
-                        COMPANIES
+                    <div className={styles.numbers}>
+                    <p>10k<br></br>
+                        <span>COMPANIES</span>
                     </p><p>314
-                        TEMPLATES
+                        <span>TEMPLATES</span>
                     </p><p>12M
-                        QUERIES
+                        <span>QUERIES</span>
                     </p>
+                    </div>
+
+                    
                 </div>
 
                 <div className={styles.cardRight}>
