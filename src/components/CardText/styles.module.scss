@@ -1,3 +1,44 @@
-h1 {
-    font-family: $font-lexand;
+$font-inter: 'Inter', sans-serif;
+$font-lexand: 'Lexend Deca', sans-serif;
+
+.card {
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    background-color: var(--darkDesatured);
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+.mainHeading > p {
+    
+    color: #fff;
+    font-weight: bold;
+    font-family: $font-inter;
+    font-size: 35px;    
+        
+}
+
+.secondHeading {
+    
+    > p {
+        color: #fff;
+        font-family: $font-lexand;
+    }
+
+    
+}
+
+
+.cardLeft {
+    margin: auto;
+    text-align: justify;
+    text-align: center;
+}
+
+.cardRight {
+    margin: auto;
+    accent-color: #aa5cdb;
+    
+
 }
